@@ -1,6 +1,6 @@
 let products = [];
 
-let addProduct = ()=>{
+const addProduct = ()=>{
     let new_product = prompt("Ingrese un nuevo producto:");
         if(new_product == ""){
             return alert("No puedes ingresar un producto vacio. Intente nuevamente");
@@ -15,7 +15,7 @@ let addProduct = ()=>{
         }
 }
 
-let getProduct = ()=>{
+const getProduct = ()=>{
     if(products.length == 0){
         return alert("Todavia no se ingreso ningun producto.")
     }
